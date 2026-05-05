@@ -30,6 +30,7 @@ app.get('/', function(req, res){
     reporterOptions: {
       reportDir: 'public',
       reportFilename: 'testresultaat',
+      reportTitle: "Tests voor de opdrachten",
       quiet: false,
       html: true,
       json: false,

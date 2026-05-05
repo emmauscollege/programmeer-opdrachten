@@ -12,6 +12,9 @@
     "files.exclude": {                    // hide dot-files and -folders in vscode
      ".*": true,
     },
+    "workbench.editorAssociations": {
+      "README.md": "vscode.markdown.preview.editor"
+    },
 
     "chat.disableAIFeatures": true,
   }
