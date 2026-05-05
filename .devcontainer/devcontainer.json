@@ -1,0 +1,17 @@
+{
+  "name": "Node Backend Dev",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+
+  "forwardPorts": [3000],
+
+  "portsAttributes": {
+    "3000": {
+      "label": "App",
+      "onAutoForward": "openBrowser"
+    }
+  },
+
+  "postCreateCommand": "cd backend && npm install",
+
+  "postStartCommand": "cd backend && node server-app.js"
+}
