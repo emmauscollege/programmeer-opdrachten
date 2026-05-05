@@ -11,7 +11,7 @@ function isPositief(getal) {
   var teruggeefWaarde = undefined;
 
   // vul hier aan:
-  
+  teruggeefWaarde = getal >= 0;
 
   return teruggeefWaarde;
 }
