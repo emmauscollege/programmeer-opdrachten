@@ -12,6 +12,6 @@
   },
 
   "postCreateCommand": "cd backend && npm install",
-  "postStartCommand": "npm start",
+  "postStartCommand": "cd backend && npm start",
   "postAttachCommand": "code README.md"
 }
